@@ -1,0 +1,35 @@
+.navbar-inverse .navbar-brand {
+  color : white;
+}
+.navbar-inverse .navbar-nav>li>a {
+  color : white;
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+  color : white;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.container {
+  color: white;
+}
+
+.contact-form{ margin-top:15px;}
+.contact-form .textarea{ min-height:220px; resize:none;}
+.form-kontrol{ box-shadow:none; border-color:#eee; height:49px;}
+.form-kontrol:focus{ box-shadow:none; border-color:#00b09c;}
+.form-kontrol-feedback{ line-height:50px;}
+.main-btn{ background:#00b09c; border-color:#00b09c; color:#fff;}
+.main-btn:hover{ background:#00a491;color:#fff;}
+.form-kontrol-feedback {
+line-height: 50px;
+top: 0px;
+}
