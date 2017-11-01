@@ -19,6 +19,8 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
+    <link href="assets/css/style.css" rel="stylesheet">
+
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="assets/js/ie-emulation-modes-warning.js"></script>
@@ -29,27 +31,26 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <style media="screen">
-    body{
-      background-color: black;
-    }
-  </style>
   <body>
-    <div class="container-fluid">
-      <img src="assets/img/foto-header.jpg" alt="..."  height="400" width="100%">
-      <br><br>
-      <center>
-        <a class="btn btn-success btn-lg" href="signin.php" role="button">Sign In</a>
-        <a class="btn btn-primary btn-lg" href="signup.php" role="button">Sign Up</a>
-      </center>
 
-      <hr>
-      <footer class="footer">
-        <p><font color="white"> &copy; 2017 Rival Finder </font></p>
-        <p><font color="white">We will help your team for looking a rival that is compatible with your team</font></p>
-        <p><font color="white">In order to improve the mental and the quality of your team futsal game</font></p>
+      <div class="landing">
+        <!-- link gambar pindah di properti css landing -->
+        <div class="landing-text">
+          <h1>RivalFinder</h1>
+          <h3>
+            We will help your team for looking a rival that is compatible with your team
+            <br>
+            In order to improve the mental and the quality of your team futsal game
+          </h3>
+          <a class="btn btn-landing btn-lg" href="signin.php" role="button">Sign In</a>
+          <a class="btn btn-landing btn-lg" href="signup.php" role="button">Sign Up</a>
+        </div>
+      </div>
+
+      <footer>
+        <p>&copy; 2017 Rival Finder</p>
       </footer>
-    </div>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
