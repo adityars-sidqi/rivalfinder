@@ -28,7 +28,7 @@
               <h3><?= $club['name']; ?></h3>
               <p>Contact Person : <em><?= $club['contact']; ?></em></p>
               <p>Status : <a href="#" class="btn btn-xs <?php if ($club['status'] == 'Available') { echo 'btn-success'; } else { echo 'btn-danger'; }?>"><?= $club['status']; ?></a></p>
-              <p><a href="challenge.php?id=<?= $club['id_club']; ?>" class="btn btn-default" <?php if ($club['status'] != 'Available') { echo "disabled='disabled'"; }?>>Challenge</a></p>
+              <p><a href="<?php if ($club['status'] != 'Available') { echo "#"; } else { echo "challenge.php?id=$club[id_club]"; } ?>" class="btn btn-default" <?php if ($club['status'] != 'Available') { echo "disabled"; }?>>Challenge</a></p>
             </div>
             <?php if ($i % $jumlahData == 0 || $i == $count ) {
               echo "</div>";
